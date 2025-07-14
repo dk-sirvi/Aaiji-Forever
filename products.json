@@ -28,25 +28,25 @@
     {
       "name": "Baby Diapers - L",
       "price": 499,
-      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/baby-diaper.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/babyDaiper.jpg",
       "category": "Baby Care"
     },
     {
       "name": "Skin Moisturizer",
       "price": 299,
-      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/moisturizer.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/babyDaiper.jpg",
       "category": "Skin Care"
     },
     {
       "name": "Protein Powder",
       "price": 999,
-      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/protein.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/babyDaiper.jpg",
       "category": "Fitness"
     },
     {
       "name": "Condoms Pack",
       "price": 150,
-      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/condoms.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/babyDaiper.jpg",
       "category": "Sexual Wellness"
     }
   ]
