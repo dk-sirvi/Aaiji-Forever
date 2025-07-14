@@ -3,31 +3,50 @@
     {
       "name": "Paracetamol 500mg",
       "price": 25,
-      "image": "https://example.com/images/paracetamol.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/paracetamol.jpg",
       "category": "Medicine"
     },
+	{
+      "name": "Dolo",
+      "price": 25,
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/paracetamol.jpg",
+      "category": "Medicine"
+    },
+	{
+      "name": "Vitamin D",
+      "price": 25,
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/paracetamol.jpg",
+      "category": "Medicine"
+    },
+	{
+      "name": "Vitamin C",
+      "price": 25,
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/paracetamol.jpg",
+      "category": "Medicine"
+    }
+	,
     {
       "name": "Baby Diapers - L",
       "price": 499,
-      "image": "https://example.com/images/baby-diaper.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/baby-diaper.jpg",
       "category": "Baby Care"
     },
     {
       "name": "Skin Moisturizer",
       "price": 299,
-      "image": "https://example.com/images/moisturizer.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/moisturizer.jpg",
       "category": "Skin Care"
     },
     {
       "name": "Protein Powder",
       "price": 999,
-      "image": "https://example.com/images/protein.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/protein.jpg",
       "category": "Fitness"
     },
     {
       "name": "Condoms Pack",
       "price": 150,
-      "image": "https://example.com/images/condoms.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/condoms.jpg",
       "category": "Sexual Wellness"
     }
   ]
