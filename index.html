@@ -3,63 +3,97 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aaiji Forever Chemist and Druggist</title>
+  <title>AAIJI FOREVER chemist and druggiest</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
 </head>
 <body>
+  <div class="background-animation"></div>
   <header>
-    <div class="container header-container">
-      <div class="logo">
-        <img src="shopImage.png" alt="Aaiji Forever Logo" />
-      </div>
-      <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Search for products..." />
-        <button onclick="searchProducts()">Search</button>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#aboutUs">About Us</a></li>
-        </ul>
-      </nav>
+    <div class="logo"><img src="https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/logo/logo.png" alt="ShopName" /></div>
+    <div class="search-container">
+      <input type="text" class="search-box" placeholder="Search medicines, brands..." />
+      <button class="search-button">Search</button>
     </div>
+    <nav>
+      <ul>
+        <li><a href="#home">🏠 Home</a></li>
+        <li><a href="#products">🛒 Products</a></li>
+        <li><a href="#services">🩺 Services</a></li>
+        <li><a href="#about">📋 About</a></li>
+        <li><a href="#contact">📞 Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <section id="home" class="section">
-      <h2>Welcome to Aaiji Forever Chemist and Druggist</h2>
-      <p>Your trusted pharmacy in Palegaon, Ambernath — Google rated best by customers!</p>
-    </section>
+  <section id="home" class="section home">
+    <h2>🏥 Welcome to AAIJI FOREVER chemist and druggiest</h2>
+    <p>
+      Located in Palegaon, Ambernath, AAIJI FOREVER chemist and druggiest is your trusted destination for healthcare and lifestyle essentials. 
+      From Ayurvedic and Allopathic medicines to wellness products and personalized services, we offer a complete healthcare solution. 
+      Rated highly on Google, our shop offers a wide variety of fitness supplements, baby care items, groceries, and more. 
+      We bridge traditional values with modern convenience to serve families in and around Ambernath.
+    </p>
+  </section>
 
-    <section id="products" class="section">
-      <h2>Our Products</h2>
-      <div id="productCategories" class="product-categories">
-        <!-- Categories and products will be injected here -->
+   <section id="products" class="section products">
+    <h2>🛒 Shop By Category</h2>
+    <div id="productContainer"></div>
+  </section>
+
+  <section id="blog" class="section blog">
+    <h2>📝 Blogs</h2>
+    <ul>
+      <li><b>Essential Medicines Every Home Should Have:</b> A guide to basic medications and health supplies that every household should keep for emergencies – including fever reducers, pain relievers, antiseptics, and first-aid essentials. Helps customers make informed purchases.</li>
+      <li><b>Understanding Generic vs. Branded Medicines:</b> Mr. Deshmukh’s story of recovery. It explains the differences between generic and branded drugs, their effectiveness, and how to choose the right product confidently.</li>
+      <li><b>Ayurvedic vs. Allopathic Treatments: Which One Is Right for You?:</b> A comparison between traditional Ayurvedic remedies and modern allopathic medicine, helping customers decide based on their needs.</li>
+      <li><b>Health Care Tips for Babies and Toddlers: A Parent’s Quick Guide:</b> Must-know tips for common childhood illnesses, vaccinations, and baby-safe products – especially helpful for new parents visiting our store.</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>📞 Contact Us</h2>
+    <div class="contact-grid">
+      <div class="info">
+        <p><b>Email:</b> <a href="mailto:dineshsirviabc124@gmail.com">dineshsirviabc124@gmail.com</a></p>
+        <p><b>Phone:</b> <a href="tel:+917231096143">+91 7231096143</a></p>
+        <p><b>Address:</b> Palegaon, Ambernath (East)</p>
       </div>
-    </section>
+      <div class="social">
+        <p>Follow us:</p>
+        <div class="icons">
+          <a href="https://instagram.com" target="_blank"><img src="images\social_Images\instagramImage.jpg" alt="Instagram" /></a>
+          <a href="https://wa.me/917231096143" target="_blank"><img src="images\social_Images\whatsappImage.jpg" alt="WhatsApp" /></a>
+          <a href="https://linkedin.com" target="_blank"><img src="images\social_Images\linkedinImage.png" alt="LinkedIn" /></a>
+          <a href="https://youtube.com" target="_blank"><img src="images\social_Images\youtubeImage.jpg" alt="YouTube" /></a>
+        </div>
+       
+      </div>
+	  <div class= "map">
+		<div class="icons">
+			<a class="map-link" href="https://www.google.com/maps/place/Palegaon+Ambernath+Chemist" target="_blank">
+			  <img src="images\social_Images\googleMapImage.jpg" alt="Google Map Location" class="map-img" />
+			</a>
+		</div>
+	  </div>
+    </div>
+  </section>
 
-    <section id="blog" class="section">
-      <h2>Health Blog</h2>
-      <p>Coming soon: tips on wellness, healthcare, and preventive medicine.</p>
-    </section>
-
-    <section id="contact" class="section">
-      <h2>Contact Us</h2>
-      <p>📍 Visit us at Palegaon, Ambernath<br>📞 Call us: +91 1234567890<br>📧 Email: info@aaijiforever.com</p>
-    </section>
-
-    <section id="aboutUs" class="section">
-      <h2>About Aaiji Forever</h2>
-      <p>We are committed to delivering quality medicines and wellness products with care and trust.</p>
-    </section>
-  </main>
+  <section id="about" class="section about">
+    <h2>📋 About AZIJI FOREVER</h2>
+    <p>
+      At AZIJI FOREVER – Chemist and Druggist – we are committed to delivering trusted healthcare solutions with compassion and care. 
+      Founded with a mission to serve our community, we go beyond prescriptions by offering professional support and a listening ear. 
+      Whether you're seeking daily essentials or expert guidance, we strive to be your neighborhood’s go-to healthcare partner. 
+      Our modern store is designed for convenience, and our reputation on Google reflects our focus on care and authenticity.
+    </p>
+    <p><b>Rated highly on Google, our reputation comes from consistent care and authentic service.</b></p>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Aaiji Forever Chemist and Druggist | All Rights Reserved</p>
+    <p>© Copyright 2025 AZIJI FOREVER. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
