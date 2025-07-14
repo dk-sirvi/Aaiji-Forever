@@ -3,50 +3,50 @@
     {
       "name": "Paracetamol 500mg",
       "price": 25,
-      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/paracetamol.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/paracetamol.jpg",
       "category": "Medicine"
     },
 	{
       "name": "Dolo",
       "price": 25,
-      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/paracetamol.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/paracetamol.jpg",
       "category": "Medicine"
     },
 	{
       "name": "Vitamin D",
       "price": 25,
-      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/paracetamol.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/paracetamol.jpg",
       "category": "Medicine"
     },
 	{
       "name": "Vitamin C",
       "price": 25,
-      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/paracetamol.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/paracetamol.jpg",
       "category": "Medicine"
     }
 	,
     {
       "name": "Baby Diapers - L",
       "price": 499,
-      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/baby-diaper.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/baby-diaper.jpg",
       "category": "Baby Care"
     },
     {
       "name": "Skin Moisturizer",
       "price": 299,
-      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/moisturizer.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/moisturizer.jpg",
       "category": "Skin Care"
     },
     {
       "name": "Protein Powder",
       "price": 999,
-      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/protein.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/protein.jpg",
       "category": "Fitness"
     },
     {
       "name": "Condoms Pack",
       "price": 150,
-      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/condoms.jpg",
+      "image": "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/main/Images/products/condoms.jpg",
       "category": "Sexual Wellness"
     }
   ]
