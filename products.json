@@ -1,77 +1,34 @@
 {
-  "Baby Care": [
+  "products": [
     {
-      "name": "Johnson's Baby Lotion",
-      "image": "https://i.imgur.com/lxXbL8j.jpg",
-      "price": "120"
+      "name": "Paracetamol 500mg",
+      "price": 25,
+      "image": "https://example.com/images/paracetamol.jpg",
+      "category": "Medicine"
     },
     {
-      "name": "Huggies Diapers (Pack of 20)",
-      "image": "https://i.imgur.com/zqD0LU3.jpg",
-      "price": "350"
+      "name": "Baby Diapers - L",
+      "price": 499,
+      "image": "https://example.com/images/baby-diaper.jpg",
+      "category": "Baby Care"
     },
     {
-      "name": "Himalaya Baby Powder",
-      "image": "https://i.imgur.com/Lpx0Pt3.jpg",
-      "price": "140"
-    }
-  ],
-  "Fitness": [
-    {
-      "name": "Whey Protein - 1kg",
-      "image": "https://i.imgur.com/f1eK5KL.jpg",
-      "price": "1199"
+      "name": "Skin Moisturizer",
+      "price": 299,
+      "image": "https://example.com/images/moisturizer.jpg",
+      "category": "Skin Care"
     },
     {
-      "name": "Yoga Mat",
-      "image": "https://i.imgur.com/H8o1yL2.jpg",
-      "price": "499"
+      "name": "Protein Powder",
+      "price": 999,
+      "image": "https://example.com/images/protein.jpg",
+      "category": "Fitness"
     },
     {
-      "name": "Vitamin D3 Tablets",
-      "image": "https://i.imgur.com/QeWDlNk.jpg",
-      "price": "299"
-    }
-  ],
-  "Sexual Wellness": [
-    {
-      "name": "Durex Extra Time Condoms",
-      "image": "https://i.imgur.com/UPHQXLa.jpg",
-      "price": "199"
-    },
-    {
-      "name": "Manforce Condoms (Pack of 10)",
-      "image": "https://i.imgur.com/k5OS4oP.jpg",
-      "price": "180"
-    }
-  ],
-  "Skin Care": [
-    {
-      "name": "Nivea Moisturizer",
-      "image": "https://i.imgur.com/jDYmpmY.jpg",
-      "price": "250"
-    },
-    {
-      "name": "Cetaphil Cleanser",
-      "image": "https://i.imgur.com/Z4zZ3Ni.jpg",
-      "price": "450"
-    },
-    {
-      "name": "Himalaya Neem Face Wash",
-      "image": "https://i.imgur.com/JIFl1OY.jpg",
-      "price": "180"
-    }
-  ],
-  "Personal Hygiene": [
-    {
-      "name": "Savlon Handwash",
-      "image": "https://i.imgur.com/DQfMfyC.jpg",
-      "price": "90"
-    },
-    {
-      "name": "Dettol Soap (Pack of 4)",
-      "image": "https://i.imgur.com/1Ug5XWu.jpg",
-      "price": "120"
+      "name": "Condoms Pack",
+      "price": 150,
+      "image": "https://example.com/images/condoms.jpg",
+      "category": "Sexual Wellness"
     }
   ]
 }
