@@ -1,52 +1,66 @@
-// Replace with your actual JSON file URL on GitHub
-const PRODUCTS_JSON_URL = "https://raw.githubusercontent.com/yourusername/yourrepo/main/products.json";
+const jsonUrl = "https://raw.githubusercontent.com/dk-sirvi/Aaiji-Forever/refs/heads/main/products.json"; // replace with your GitHub raw JSON URL
+
+document.addEventListener("DOMContentLoaded", () => {
+  fetchProducts();
+
+  document.getElementById("searchButton").addEventListener("click", () => {
+    const query = document.getElementById("searchBox").value.toLowerCase();
+    filterProducts(query);
+  });
+});
+
+let allProducts = [];
 
 async function fetchProducts() {
   try {
-    const response = await fetch(PRODUCTS_JSON_URL);
-    const data = await response.json();
-    renderProducts(data);
+    const res = await fetch(jsonUrl);
+    const data = await res.json();
+    allProducts = data.products;
+    renderProducts(allProducts);
   } catch (error) {
-    console.error("Error fetching products:", error);
+    console.error("Failed to load products:", error);
   }
 }
 
-function renderProducts(data) {
-  const container = document.getElementById("productCategories");
+function renderProducts(products) {
+  const container = document.getElementById("productContainer");
   container.innerHTML = "";
 
-  Object.keys(data).forEach(category => {
-    const section = document.createElement("div");
-    section.className = "category-section";
-    section.innerHTML = `<h3>${category}</h3>`;
-    
-    const productList = document.createElement("div");
-    productList.className = "product-list";
+  const grouped = products.reduce((acc, item) => {
+    acc[item.category] = acc[item.category] || [];
+    acc[item.category].push(item);
+    return acc;
+  }, {});
 
-    data[category].forEach(product => {
+  for (let category in grouped) {
+    const section = document.createElement("div");
+    section.className = "category";
+    section.innerHTML = `<h3>${category}</h3>`;
+
+    const grid = document.createElement("div");
+    grid.className = "product-grid";
+
+    grouped[category].forEach((product) => {
       const card = document.createElement("div");
       card.className = "product-card";
       card.innerHTML = `
         <img src="${product.image}" alt="${product.name}" />
-        <h4>${product.name}</h4>
-        <p>₹${product.price}</p>
+        <p>${product.name}</p>
+        <span>₹${product.price}</span>
       `;
-      productList.appendChild(card);
+      grid.appendChild(card);
     });
 
-    section.appendChild(productList);
+    section.appendChild(grid);
     container.appendChild(section);
-  });
+  }
 }
 
-function searchProducts() {
-  const query = document.getElementById("searchInput").value.toLowerCase();
-  const cards = document.querySelectorAll(".product-card");
-
-  cards.forEach(card => {
-    const name = card.querySelector("h4").innerText.toLowerCase();
-    card.style.display = name.includes(query) ? "block" : "none";
-  });
+function filterProducts(query) {
+  const filtered = allProducts.filter(
+    product =>
+      product.name.toLowerCase().includes(query) ||
+      product.category.toLowerCase().includes(query)
+  );
+  renderProducts(filtered);
 }
-
-document.addEventListener("DOMContentLoaded", fetchProducts);
